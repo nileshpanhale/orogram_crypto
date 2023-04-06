@@ -1,0 +1,22 @@
+{
+  "name": "cryptogold-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-wallet": "^0.6.5",
+    "express": "^4.17.2",
+    "path": "^0.12.7",
+    "truffle": "^5.4.27",
+    "truffle-contract": "^4.0.31",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^0.20.5"
+  }
+}

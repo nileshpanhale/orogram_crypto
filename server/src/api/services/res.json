@@ -1,0 +1,153 @@
+{
+  "id": "acct_1Epp3yI6Q5aKdyVq",
+  "object": "account",
+  "business_profile": {
+    "mcc": null,
+    "name": null,
+    "product_description": null,
+    "support_address": null,
+    "support_email": null,
+    "support_phone": null,
+    "support_url": null,
+    "url": null
+  },
+  "business_type": "individual",
+  "charges_enabled": false,
+  "country": "US",
+  "created": 1561609102,
+  "default_currency": "usd",
+  "details_submitted": false,
+  "email": "bob@example.com",
+  "external_accounts": {
+    "object": "list",
+    "data": [],
+    "has_more": false,
+    "total_count": 0,
+    "url": "/v1/accounts/acct_1Epp3yI6Q5aKdyVq/external_accounts"
+  },
+  "individual": {
+    "id": "person_FM3Kei04ZSZgEH",
+    "object": "person",
+    "account": "acct_1Epp3yI6Q5aKdyVq",
+    "address": {
+      "city": null,
+      "country": "US",
+      "line1": null,
+      "line2": null,
+      "postal_code": null,
+      "state": null
+    },
+    "created": 1561971053,
+    "dob": {
+      "day": null,
+      "month": null,
+      "year": null
+    },
+    "email": "vishal.dalve@mail.vinove.com",
+    "first_name": null,
+    "id_number_provided": false,
+    "last_name": null,
+    "metadata": {},
+    "relationship": {
+      "account_opener": true,
+      "director": false,
+      "owner": false,
+      "percent_ownership": null,
+      "title": null
+    },
+    "requirements": {
+      "currently_due": [
+        "dob.day",
+        "dob.month",
+        "dob.year",
+        "first_name",
+        "last_name",
+        "ssn_last_4"
+      ],
+      "eventually_due": [],
+      "past_due": []
+    },
+    "ssn_last_4_provided": false,
+    "verification": {
+      "details": null,
+      "details_code": null,
+      "document": {
+        "back": null,
+        "details": null,
+        "details_code": null,
+        "front": null
+      },
+      "status": "pending"
+    }
+  },
+  "metadata": {},
+  "payouts_enabled": false,
+  "requirements": {
+    "current_deadline": null,
+    "currently_due": [
+      "business_url",
+      "external_account",
+      "individual.address.city",
+      "individual.address.line1",
+      "individual.address.postal_code",
+      "individual.address.state",
+      "individual.dob.day",
+      "individual.dob.month",
+      "individual.dob.year",
+      "individual.first_name",
+      "individual.last_name",
+      "individual.ssn_last_4",
+      "product_description",
+      "support_phone",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "disabled_reason": "requirements.past_due",
+    "eventually_due": [
+      "business_url",
+      "external_account",
+      "product_description",
+      "support_phone",
+      "tos_acceptance.date",
+      "tos_acceptance.ip"
+    ],
+    "past_due": []
+  },
+  "settings": {
+    "branding": {
+      "icon": null,
+      "logo": null,
+      "primary_color": null
+    },
+    "card_payments": {
+      "decline_on": {
+        "avs_failure": false,
+        "cvc_failure": true
+      }
+    },
+    "dashboard": {
+      "display_name": "Vishal",
+      "timezone": "Asia/Calcutta"
+    },
+    "payments": {
+      "statement_descriptor": "",
+      "statement_descriptor_kana": null,
+      "statement_descriptor_kanji": null
+    },
+    "payouts": {
+      "debit_negative_balances": true,
+      "schedule": {
+        "delay_days": 2,
+        "interval": "weekly",
+        "weekly_anchor": "monday"
+      },
+      "statement_descriptor": null
+    }
+  },
+  "tos_acceptance": {
+    "date": null,
+    "ip": null,
+    "user_agent": null
+  },
+  "type": "custom"
+}

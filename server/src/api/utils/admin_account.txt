@@ -1,0 +1,46 @@
+db.users.insert({
+"lastUpdatedPassword": "2018-09-18T10:18:22.445Z",
+"updatedAt": "2018-09-24T05:40:53.623Z",
+"createdAt": "2018-09-04T04:15:27.841Z",
+"email": "admin@admin.com",
+"password": "$2a$10$Im8eq.McXIBMurjTn3uHGOXMY.RFHzv7GhzSn1dWRZgKr/.DPDVl2",
+"platform": "admin",
+"googleAuth": false,
+"mobile": "91701162818111",
+"firstName": "Ankit updated",
+"lastName": "Verma",
+"createWithoutPassword": true,
+"bankAccounts": [
+{
+"bankName": "SBI",
+"accountNumber": 651651465415,
+"city": "gurgaon",
+"country": "india",
+"swiftCode": "SBI0000987"
+}
+],
+"account": {
+"secret": "e66f6eb7405e8816ed20ac89a0b47a59ec28a10eeb4df1aacc85ea23bfe8d2b18f8643badb6d76876b3735e45ff68a0b973bca22756d05b5098eab65a25f936d394065780c7302e5eee572784d20f996d74684136a1d29a111963564f0abbeefdfa3993bb26e7940d900923e318e974555f91d98001fd84a906acd8b77febf91349363248ffd5b1be5d6050aa96130d32f7bbd8f94fbd46173612b384c",
+"address": "AHPj9iVkjYtk2SqV2pvvGTZ2dLXKwNPiHc",
+"publicKey": "770e3e8193f51d585a45f60df640c9df13524a908b18e39b2f7a78d43aabcdcf",
+"privateKey": "f92c21c2fbe716a310f046160343bb6ac25ac7e0bcd7b574ce757f4f75f5237e770e3e8193f51d585a45f60df640c9df13524a908b18e39b2f7a78d43aabcdcf"
+},
+"picture": "5ba2197edaf1090b117a3d75_1537767653497_5ba2197edaf1090b117a3d75_1537350099823_510222832-612x612.jpg",
+"isActive": true,
+"status": "true",
+"mobileVerified": true,
+"emailVerified": true,
+"userId": "SUV53Hplt",
+"role": "admin",
+"__v": 0,
+"googleAuthKey": "KBKUESCVKRFUKRKX",
+"passwordToken": "UJW20VO5ZS5DH6WD366IPQE7NA0CEK"
+})
+
+//"secret": "hip zero uncover lemon regular island leaf auto job flag style use girl picnic satoshi smoke around odor wink lucky minor monitor actual lift",
+//"secretEncrypted": "e66f6eb7405e8816ed20ac89a0b47a59ec28a10eeb4df1aacc85ea23bfe8d2b18f8643badb6d76876b3735e45ff68a0b973bca22756d05b5098eab65a25f936d394065780c7302e5eee572784d20f996d74684136a1d29a111963564f0abbeefdfa3993bb26e7940d900923e318e974555f91d98001fd84a906acd8b77febf91349363248ffd5b1be5d6050aa96130d32f7bbd8f94fbd46173612b384c",
+
+OlD secret
+
+//"secret": "trim yard dutch sorry fault meat present seek seven salad transfer awful",
+//"secretEncrypted": "72476a73c88f67554c29a5ffcec56180444466b5f8ebd0d9aa062e328a82861106fa64ac161f675435b5c2ded07d3d8e63672160243c58a80a57a63d05ada3eda34dc80f388df4328468200ebdcaa35e6a52d3a532f43f71",

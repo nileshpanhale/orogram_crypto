@@ -1,0 +1,16 @@
+version: "3"
+services:
+  crypto_server:
+    container_name: crypto_server
+    build: .
+    #    command: bash -c "./script.sh"
+    networks:
+      - crypto_server
+    volumes:
+      - ../.:/var/www/html/
+    ports:
+      - "8087:3009"
+#Docker Networks
+networks:
+  crypto_server:
+    driver: bridge
