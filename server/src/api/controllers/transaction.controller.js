@@ -787,6 +787,7 @@ exports.getUserTrades = async (req, res, next) => {
         queryObj['page'] = parseInt(req.query.page);
         queryObj['perPage'] = parseInt(req.query.perPage);
 
+        console.log("Search content check : ", req.query.searchString);
         if (req.query.searchString) {
 
             queryObj.query['$and'] = [

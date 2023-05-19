@@ -7,7 +7,7 @@ const provider = new Web3.providers.HttpProvider("http://127.0.0.1:9001");
 // const provider = new Web3.providers.HttpProvider("https://rinkeby.infura.io/v3/0eefca2527d44b9589a544d7f403b067");
 var web3 = new Web3(provider);
 
-var contractAddress = '0x5108c80890984Ef816044257B2c27453A8887178';
+var contractAddress = '0x4eb7581059a4D7460EDC01354047817b28757b4e';
 const abi = [
 	{
 		"anonymous": false,

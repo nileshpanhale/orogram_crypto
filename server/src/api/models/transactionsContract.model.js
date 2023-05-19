@@ -143,6 +143,12 @@ const transactionSchema = new mongoose.Schema({
   },
   disputedBy: {
     type: String
+  },
+  lat:{
+    type:Number
+  },
+  lng:{
+    type:Number
   }
 }, {
   timestamps: true,

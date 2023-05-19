@@ -26,6 +26,10 @@ let self = this;
 exports.saveTransaction = async (req, res, next) => {
     try {
 
+        console.log("::::::::::::::::::::::::::::::::::::::::::::");
+        console.log("Open Contract Params Check : ", req.body);
+        console.log("::::::::::::::::::::::::::::::::::::::::::::");
+
         let type = null;
         let user = null;
 
@@ -56,6 +60,11 @@ exports.saveTransaction = async (req, res, next) => {
             transaction['receiverWallet'] = receiver.account.address;
             ethPriv = crypr.decrypt(receiver.ethPrivateKey);
             ethPub = receiver.ethPublicKey;
+        }
+
+        if (req.body.lat && req.body.lng) {
+            transaction.lat = req.body.lat;
+            transaction.lng = req.body.lng;
         }
 
         //storing data on ETH blockchain ----------------------
@@ -835,9 +844,6 @@ exports.getTradesHistory = async (req, res, next) => {
 exports.getTrades = async (req, res, next) => {
     try {
 
-        console.log("User wallet address : ", req.user.account.address);
-        console.log("req.query : ", req.query);
-
         let queryObj = { 'query': {} };
         queryObj['query']['type'] = 'trade';
 
@@ -1313,14 +1319,11 @@ exports.getDescriptionSearch = async (req, res, next) => {
 
 };
 
-
 exports.mintLandNFT = async (req, res) => {
     try {
 
         console.log("Purchase land API hitting.", req.body);
         let landNFT = new nftDB(req.body);
-        // let user = await User.findOne({ email: req.body.email });
-        // console.log("Fetched user details : ", user);
         landNFT.owner = req.body.email;
         landNFT.coordinates = req.body.markers;
         landNFT.area = req.body.area;
