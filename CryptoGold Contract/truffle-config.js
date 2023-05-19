@@ -11,20 +11,18 @@ module.exports = {
   networks: {
     development: {
       host: "127.0.0.1",
-      port: 7545,
-      network_id: "5777",
-      gas: 3000000
+      port: 9001,
+      network_id: "2023",
+      gas : 3000000
     }
-  },
-  compilers: {
-    solc: {
-      version: "^0.4.22",    // Fetch exact version from solc-bin (default: truffle's version)
-      settings: {          // See the solidity docs for advice about optimization and evmVersion
-        optimizer: {
-          enabled: false,
-          runs: 200
-        },
-      }
-    }
+
+    // ropsten: {
+    //   provider: function() {
+    //     return new HDWalletProvider(MNEMONIC, "https://ropsten.infura.io/v3/ff51df7e52384a9f9c397159a332da53")
+    //   },
+    //   network_id: 3,
+    //   gas: 3000000
+    //   //make sure this gas allocation isn't over 4M, which is the max
+    // }
   }
 };

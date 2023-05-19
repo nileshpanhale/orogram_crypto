@@ -9,7 +9,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider('http://127.0.0.1:9001'));
 /**
  * @dev deployed contract address and ABI on network
  */
-const contractAddr = '0xf7F33c0f409a18737d7B91d343bbFF5a85669538';
+const contractAddr = '0x8DEBE347770917b8166B7dbaa8589Adc4B2B9588';
 const contractABI = [
   {
     "inputs": [],
@@ -329,7 +329,7 @@ const contractABI = [
 /**
  * @dev account address and private key from which we deploy smart contract
  */
-const owner = "0xE92029AD77CcA3E58A85491c496756fe25924f28";
+const owner = "0xaDC085331b072C682007b7db1916Fd2b15458B4C";
 
 /**
  * @dev deployed contract instance
